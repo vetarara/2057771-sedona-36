@@ -22,6 +22,7 @@ body {
     background-color: #fff;
 }
 
+/* Хедер */
 .header {
     color: #000;
     background: #fff;
@@ -51,6 +52,7 @@ body {
     text-align: center;
 }
 
+/* Основной раздел */
 .main {
     color: inherit;
     background-color: #fff;
@@ -79,6 +81,7 @@ body {
     line-height: 26px;
 }
 
+/* Преимущества */
 .advantages-list {
     list-style: none;
 }
@@ -100,3 +103,17 @@ body {
     background-color: rgba(131, 179, 211, 0.2);
     color: #000;
 }
+
+/* Спрятала visually-hidden, чтобы не путаться */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
