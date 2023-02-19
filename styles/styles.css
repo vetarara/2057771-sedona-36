@@ -86,5 +86,17 @@ body {
 .advantages-item {
     width: 400;
     height: 385;
-    outline: solid blue;
+    background-color: #82B3D3;
+    color: #fff;
+}
+
+.advantages-item-square,
+.advantages-item-tourist {
+    background-color: rgba(131, 179, 211, 0.12);
+    color: #000;
+}
+
+.advantages-item-road {
+    background-color: rgba(131, 179, 211, 0.2);
+    color: #000;
 }
