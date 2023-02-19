@@ -28,6 +28,7 @@ body {
 }
 
 .navigation-link {
+    list-style: none;
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: 24px;
@@ -38,6 +39,7 @@ body {
 }
 
 .navigation-user-link {
+    list-style: none;
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: 24px;
@@ -73,4 +75,14 @@ body {
     background-color: #fff;
     font-size: 22px;
     line-height: 26px;
+}
+
+.advantages-list {
+    list-style: none;
+}
+
+.advantages-item {
+    width: 400;
+    height: 385;
+    outline: solid blue;
 }
