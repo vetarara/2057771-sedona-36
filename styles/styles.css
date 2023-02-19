@@ -48,9 +48,29 @@ body {
 }
 
 .main {
-    color: #000;
+    color: inherit;
     background-color: #fff;
     background-image: url("../images/mountains-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.greeting-descript {
+    text-align: center;
+
+}
+
+.greeting-title {
+    color: inherit;
+    background-color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.greeting-text {
+    color: inherit;
+    background-color: #fff;
+    font-size: 22px;
+    line-height: 26px;
 }
