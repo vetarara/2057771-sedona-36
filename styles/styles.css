@@ -33,17 +33,7 @@ body {
 }
 
 .navigation-link {
-    font-family: "PT Sans", sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    color: inherit;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-}
 
-.navigation-user-link {
-    font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: 24px;
     color: inherit;
@@ -102,6 +92,22 @@ body {
 .advantages-item-road {
     background-color: rgba(131, 179, 211, 0.2);
     color: #000;
+}
+
+/* advantages-title и advantages-description - и для преимуществ, и для предложений */
+.advantages-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.advantages-description {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
 }
 
 /* Спрятала visually-hidden, чтобы не путаться */
