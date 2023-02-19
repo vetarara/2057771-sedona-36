@@ -70,9 +70,10 @@ body {
     line-height: 26px;
 }
 
-/* Преимущества + ПРИЕЗЖАЙТЕ В СЕДОНУ ОТДОХНУТЬ В КОМФОРТЕ И УЮТЕ!*/
+/* Преимущества + ПРИЕЗЖАЙТЕ В СЕДОНУ ОТДОХНУТЬ В КОМФОРТЕ И УЮТЕ! (предложения) */
 .advantages-list {
     list-style: none;
+    text-align: center;
 }
 
 .advantages-item {
@@ -83,7 +84,9 @@ body {
 }
 
 .advantages-item-square,
-.advantages-item-tourist {
+.advantages-item-tourist,
+.advantages-item-home,
+.advantages-item-souvenirs {
     background-color: rgba(131, 179, 211, 0.12);
     color: #000;
 }
@@ -105,6 +108,11 @@ body {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
+}
+
+.advantages-item-food {
+    color: #000;
+    background-color: #fff;
 }
 
 /* Спрятала visually-hidden, чтобы не путаться */
