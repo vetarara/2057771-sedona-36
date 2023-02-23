@@ -333,3 +333,7 @@ body {
 .hotels-favorites {
     background-color: #82B3D3;
 }
+
+.hotels-favorites-active {
+    background-color: #7DB54F;
+}
