@@ -70,3 +70,15 @@ body {
     font-size: 22px;
     line-height: 26px;
 }
+
+/* список преимуществ */
+
+.advantages-list {
+    list-style: none;
+}
+
+/* cписок features */
+
+.features-list {
+    list-style: none;
+}
