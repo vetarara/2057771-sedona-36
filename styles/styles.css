@@ -229,6 +229,10 @@ body {
     color: #000;
   }
 
+.footer-social {
+    list-style: none;
+}
+
 
   /* Страница каталога, критерии поиска */
 .filter{
