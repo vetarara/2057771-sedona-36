@@ -49,8 +49,6 @@ body {
     background-image: url("../images/mountains-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
-    width: 1200px;
-    height: 485px;
 }
 
 /*Для "небольношй городок, заслуживающий большего" и "приезжайте отдохнуть"*/
@@ -183,4 +181,17 @@ body {
     background-repeat: no-repeat;
     width: 1200px;
     height: 415px;
+    text-align: center;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe-text {
+    font-size: 22px;
+    line-height: 26px;
 }
