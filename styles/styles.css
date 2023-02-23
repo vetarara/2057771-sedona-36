@@ -35,7 +35,7 @@ body {
 /* Главная страница, хедер */
 .header {
     color: #000;
-    background: #fff;
+    background-color: #fff;
 }
 
 .navigation-list {
@@ -219,6 +219,7 @@ body {
 
 .footer {
     background-color: #fff;
+    color: #000;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
@@ -285,6 +286,7 @@ body {
 
 .button-transparent {
     background-color: transparent;
+    color: #fff;
 }
 
 /* результат поиска */
@@ -329,6 +331,7 @@ body {
 
 .hotels-favorites {
     background-color: #82B3D3;
+    color: #fff;
 }
 
 .hotels-favorites-active {
