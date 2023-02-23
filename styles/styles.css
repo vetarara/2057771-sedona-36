@@ -232,7 +232,7 @@ body {
   }
 
 
-  /* Страница каталога */
+  /* Страница каталога, критерии поиска */
 .filter{
     color: #fff;
     background-color: #756157;
@@ -241,9 +241,69 @@ body {
     background-repeat: no-repeat;
 }
 
+.title {
+    color: inherit;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.breadcrumbs {
+    list-style: none;
+}
+
+.breadcrumbs-item {
+    color: inherit;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.filter-title {
+    color: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.filter-control {
+    color: inherit;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.filter-range-input {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .button-submit {
     font-size: 16px;
     line-height: 20px;
     color: #fff;
     background-color: #82B3D3;
+}
+
+.button-transparent {
+
+}
+
+/* результат поиска */
+.sorting-title {
+    color: inherit;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.sorting-uncostly {
+    color: inherit;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 }
