@@ -22,6 +22,16 @@ body {
     background-color: #fff;
 }
 
+.button {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #756157;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 /* Хедер */
 .header {
     color: #000;
@@ -171,6 +181,11 @@ body {
     line-height: 26px;
 }
 
+.search-button {
+    font-size: 20px;
+    line-height: 36px;
+}
+
 /* подписка */
 
 .subscribe {
@@ -195,3 +210,23 @@ body {
     font-size: 22px;
     line-height: 26px;
 }
+
+.subscribe-button {
+    font-size: 20px;
+    line-height: 36px;
+    color: #fff;
+    background-color: #82B3D3;
+}
+
+/* футер */
+
+.footer {
+    background-color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.footer a {
+    color: #000;
+  }
