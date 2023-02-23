@@ -32,7 +32,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
   }
-/* Хедер */
+/* Главная страница, хедер */
 .header {
     color: #000;
     background: #fff;
@@ -230,3 +230,13 @@ body {
 .footer a {
     color: #000;
   }
+
+
+  /* Страница каталога */
+.main-catalog {
+    color: #fff;
+    background-color: #756157;
+    background-image: url("../images/catalog-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
