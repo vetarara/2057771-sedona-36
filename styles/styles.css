@@ -148,3 +148,25 @@ body {
     text-align: center;
     color: #333;
 }
+
+/* поиск гостиницы */
+
+.search {
+    text-align: center;
+}
+
+.search-title {
+    color: inherit;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.search-text {
+    color: #333;
+    background-color: #fff;
+    font-size: 22px;
+    line-height: 26px;
+}
