@@ -51,6 +51,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/*Для "небольношй городок, заслуживающий большего" и "приезжайте отдохнуть"*/
 .greeting-descript {
     text-align: center;
 }
@@ -69,53 +70,3 @@ body {
     font-size: 22px;
     line-height: 26px;
 }
-
-/* Преимущества + ПРИЕЗЖАЙТЕ В СЕДОНУ ОТДОХНУТЬ В КОМФОРТЕ И УЮТЕ! (предложения) */
-.advantages-list {
-    list-style: none;
-    text-align: center;
-}
-
-.advantages-item {
-    width: 400;
-    height: 385;
-    background-color: #82B3D3;
-    color: #fff;
-}
-
-.advantages-item-square,
-.advantages-item-tourist,
-.advantages-item-home,
-.advantages-item-souvenirs {
-    background-color: rgba(131, 179, 211, 0.12);
-    color: #000;
-}
-
-.advantages-item-road {
-    background-color: rgba(131, 179, 211, 0.2);
-    color: #000;
-}
-
-/* advantages-title и advantages-description - и для преимуществ, и для предложений */
-.advantages-title {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color:#000;
-}
-
-.advantages-description {
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 400;
-    color: #333;
-}
-
-.advantages-item-food {
-    color: #000;
-    background-color: #fff;
-}
-
-
-/* надо разобраться с классами, так не пойдёт... */
