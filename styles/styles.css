@@ -59,6 +59,7 @@ body {
 .greeting-title {
     color: inherit;
     background-color: #fff;
+    font-style: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
@@ -77,8 +78,51 @@ body {
     list-style: none;
 }
 
+.advantages-item {
+    width: 400px;
+    height: 385px;
+    background-color: #82B3D3;
+    color: #fff;
+}
+
+.advantages-item-square,
+.advantages-item-tourist {
+    background-color: rgba(131, 179, 211, 0.12);
+    color: #000;
+}
+
+.advantages-item-road {
+    background-color: rgba(131, 179, 211, 0.2);
+    color: #000;
+}
+
+.advantages-title {
+    font-style: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantages-description {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.advantages-description-square,
+.advantages-description-road,
+.advantages-description-tourist {
+    color: #333;
+}
+
 /* cписок features */
 
 .features-list {
     list-style: none;
+}
+
+.features-item {
+    width: 400px;
+    height: 385px;
 }
