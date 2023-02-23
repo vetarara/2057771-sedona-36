@@ -341,3 +341,18 @@ body {
 .hotels-rating-text {
     text-transform: uppercase;
 }
+
+/* пагинация */
+.pagination {
+    background-color: #fff;
+}
+
+.pagination-item {
+    color: #fff;
+    background-color: ##82B3D3;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+  }
