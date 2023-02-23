@@ -233,7 +233,7 @@ body {
 
 
   /* Страница каталога */
-.main-catalog {
+.filter-container {
     color: #fff;
     background-color: #756157;
     background-image: url("../images/catalog-background.jpg");
