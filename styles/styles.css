@@ -54,15 +54,15 @@ body {
 /* Основной раздел */
 .main-page {
     color: inherit;
-    background-color: #333;
-    background-image: url("../images/mountains-background.jpg");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
 }
 
 /*Для "небольношй городок, заслуживающий большего" и "приезжайте отдохнуть"*/
 .greeting-description {
     text-align: center;
+    background-color: #333;
+    background-image: url("../images/mountains-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .greeting-title {
