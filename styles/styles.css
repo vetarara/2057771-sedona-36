@@ -130,7 +130,10 @@ body {
 .advantages-description-tourist {
     color: #333;
 }
-
+/* фон для "Приезжайте в Седону отдохнуть в комфорте и уюте!" */
+.greeting-description-white {
+    background-color: white;
+}
 /* cписок features */
 
 .features-list {
