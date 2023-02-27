@@ -54,7 +54,7 @@ body {
 /* Основной раздел */
 .main-page {
     color: inherit;
-    background-color: #fff;
+    background-color: #333;
     background-image: url("../images/mountains-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -187,23 +187,23 @@ body {
 
 /* подписка */
 
-.subscribe-home {
+.subscribe {
     color: #fff;
-    background-color: #82B3D3;
-    background-image: url("../images/subscribe-blur.jpg");
+    background-color: #333;
+    background-image: url("");
     background-size: 100% auto;
     background-repeat: no-repeat;
     text-align: center;
 }
 
-.subscribe-title-home {
+.subscribe-title {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
 }
 
-.subscribe-text-home {
+.subscribe-text {
     font-size: 22px;
     line-height: 26px;
 }
@@ -237,7 +237,7 @@ body {
   /* Страница каталога, критерии поиска */
 .filter{
     color: #fff;
-    background-color: #756157;
+    background-color: #333;
     background-image: url("../images/catalog-background.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -374,22 +374,22 @@ body {
     background-color: #fff;
 }
 
-/* подписка */
+/* подписка в каталоге */
 
-.subscribe {
+.subscribe-catalog {
     color: #000;
     background-color: #fff;
     text-align: center;
 }
 
-.subscribe-title-home {
+.subscribe-title-catalog {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
 }
 
-.subscribe-text-home {
+.subscribe-text-catalog {
     font-size: 22px;
     line-height: 26px;
     color: #333;
