@@ -133,6 +133,7 @@ body {
 /* фон для "Приезжайте в Седону отдохнуть в комфорте и уюте!" */
 .greeting-description-white {
     background-color: white;
+    text-align: center;
 }
 /* cписок features */
 
