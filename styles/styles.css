@@ -36,6 +36,10 @@ body {
     background-color: #fff;
 }
 
+.main-container {
+    flex-grow: 1;
+}
+
 .button {
     font-size: 16px;
     line-height: 20px;
