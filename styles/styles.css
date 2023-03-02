@@ -25,19 +25,19 @@ body {
     line-height: 21px;
     color: #000;
     background-color: #F2F2F2;
-}
-
-.page-container {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+}
+
+.page-container {
     width: 1200px;
     margin: 0 auto;
     background-color: #fff;
 }
 
 .main-container {
-    flex-grow: 2; /*почему-то это не срабатывает*/
+    flex-grow: 1; /*почему-то это не срабатывает*/
 }
 
 .button {
