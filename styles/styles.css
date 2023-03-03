@@ -54,7 +54,7 @@ body {
 
 .navigation {
     display: flex;
-    margin: 0 auto; /*В инспекте вижу, что применяется, но изменений визуальных нет. думала, потому что margin: 0 auto; наследуюется от .page-container, но если удалить margin: 0 auto; здесь, то этого не видно в инспекте*/
+    /* ощущение, что margin: 0 auto; наследуюется от .page-container - этого не видно в инспекте */
   }
 
 .navigation-list {
@@ -274,16 +274,31 @@ body {
     font-size: 40px;
     line-height: 40px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
 .footer a {
     color: #000;
+    text-decoration: none;
   }
 
-.footer-social {
+
+.social-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-list-item {
+    width: 47px;
 }
 
+.contacts {
+    width: 720px;
+}
 
   /* Страница каталога, критерии поиска */
 .filter{
