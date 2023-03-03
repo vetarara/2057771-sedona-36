@@ -20,24 +20,20 @@ html {
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: #000;
     background-color: #F2F2F2;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
 }
 
 .page-container {
     width: 1200px;
     margin: 0 auto;
     background-color: #fff;
-}
-
-.main-container {
-    flex-grow: 1; /*почему-то это не срабатывает будто бы? не появляется стики футер*/
 }
 
 .button {
@@ -71,6 +67,10 @@ body {
 /* Основной раздел */
 .main-page {
     color: inherit;
+}
+
+.main-container {
+    flex-grow: 1; /*не могу понять, срабатывает sticky-footer, или нет*/
 }
 
 /*Для "небольношй городок, заслуживающий большего" и "приезжайте отдохнуть"*/
