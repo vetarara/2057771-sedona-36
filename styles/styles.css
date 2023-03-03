@@ -51,6 +51,11 @@ body {
 
 }
 
+.navigation {
+    display: flex;
+    margin: 0 auto;
+  }
+
 .navigation-list {
     list-style: none;
 }
