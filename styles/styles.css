@@ -114,6 +114,11 @@ body {
 
 .advantages-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .advantages-item {
@@ -121,6 +126,22 @@ body {
     height: 385px;
     background-color: #82B3D3;
     color: #fff;
+}
+
+.advantages-item {
+    min-height: 385px;
+}
+.advantages-item-wide {
+    display: flex;
+}
+.advantages-item-wide-reverse {
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.advantages-image {
+    display: block;
+    height: 100%;
 }
 
 .advantages-item-square,
