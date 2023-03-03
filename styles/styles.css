@@ -301,6 +301,7 @@ body {
     line-height: 78px;
 }
 
+
 .breadcrumbs {
     list-style: none;
 }
@@ -439,7 +440,7 @@ body {
     line-height: 26px;
     color: #333;
 }
-
+/*
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -451,4 +452,4 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+  } */
