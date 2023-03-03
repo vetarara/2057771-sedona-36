@@ -28,7 +28,6 @@ body {
 }
 
 .page-container {
-    /*насколько я поняла, флексом нужно сделать именно .page-container, чтобы его child (header, main и footer стали флексовыми элементами - тогда заработает и стики футер*/
     display: flex;
     flex-direction: column;
     min-height: 100%;
