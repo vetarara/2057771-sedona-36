@@ -20,9 +20,6 @@ html {
 
 body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -31,6 +28,10 @@ body {
 }
 
 .page-container {
+    /*насколько я поняла, флексом нужно сделать именно .page-container, чтобы его child (header, main и footer стали флексовыми элементами*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     width: 1200px;
     margin: 0 auto;
     background-color: #fff;
@@ -53,12 +54,20 @@ body {
 
 .navigation {
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto; /*В инспекте вижу, что применяется, но изменений визуальных нет. думала, потому что margin: 0 auto; наследуюется от .page-container, но если удалить margin: 0 auto; здесь, то этого не видно в инспекте*/
   }
 
 .navigation-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 452px; /*каждый по 113+запас ещё на один пункт меню*/
 }
+
+.navigation-user-list {
+    max-width: 312px; /*268 + ещё 44 (запас на одну иконку) */
+    margin-left: auto;
+  }
 
 .navigation-link {
     font-size: 20px;
