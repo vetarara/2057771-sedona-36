@@ -118,30 +118,25 @@ body {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
 .advantages-item {
     width: 400px;
-    height: 385px;
+    min-height: 385px;
     background-color: #82B3D3;
     color: #fff;
 }
 
-.advantages-item {
-    min-height: 385px;
-}
 .advantages-item-wide {
     display: flex;
-}
-.advantages-item-wide-reverse {
-    display:flex;
-    flex-direction: row-reverse;
+    width: 1200px;
 }
 
-.advantages-image {
-    display: block;
-    height: 100%;
+.advantages-item-wide-reverse {
+    display: flex;
+    width: 1200px;
+    flex-direction: row-reverse;
 }
 
 .advantages-item-square,
